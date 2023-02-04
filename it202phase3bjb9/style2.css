@@ -1,0 +1,99 @@
+.grid-container2{
+  display: inline-grid;
+  grid-template-columns: 100px 100px ;
+  grid-template-rows: auto;
+
+  box-sizing: border-box;
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+table {
+    color:green;
+    margin-left:auto;
+    margin-right: auto;
+    border: 1px solid orange;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+th {
+    border: 1px solid brown;
+    padding: 5pt;
+}
+td {
+    border: 1px solid orange;
+    padding: 5pt;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("images/welcome.jpg") ;
+    color: white;
+    font-size: 30px;
+  }
+  h1{
+    color:red;
+    font-weight: 800;
+    font-family:'Times New Roman', Times, serif
+  }
+  h2{
+    font-weight: 600;
+    color:brown;
+    font-family:'Times New Roman', Times, serif
+
+  }
+  p{
+    color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  footer{
+    color:pink;
+    font-weight: thin;
+    font-family: sans-serif;
+  }
+  ol{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  .grid-container {
+  
+    display:grid ;
+   
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    background-color: #2196F3;
+    padding: 10px;
+    
+    
+  }
+
+  .grid-container2 > div {
+    background-color:gray;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+  }
+  
+  .grid-item2{
+    grid-column-start: 2;
+  grid-column-end: 4;
+  }
+  
+.grid-container > div {
+  background-color:white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+body, figcaption{
+  margin: 5px;
+  padding: 5px;
+
+  text-align: center;
+}
